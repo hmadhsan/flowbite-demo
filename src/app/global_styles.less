@@ -1,7 +1,7 @@
 @import '@taiga-ui/core/styles/taiga-ui-theme.less';
 @import '@taiga-ui/core/styles/taiga-ui-fonts.less';
 @import '@taiga-ui/styles/taiga-ui-global.less';
-@import '@taiga-ui/core/styles/taiga-ui-local.less';
+
 app {
   display: block;
   padding: 1.5625rem;
@@ -9,6 +9,7 @@ app {
   box-sizing: border-box;
   font-size: 16px;
 
+  // StackBlitz changes "0px" to "0" breaking calc
   --t-0: 0.001px;
 }
 

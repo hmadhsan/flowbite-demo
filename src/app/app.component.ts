@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { FormComponent } from './form/form.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  standalone: true,
+  imports: [FormComponent],
+  template: `<app-form></app-form>`,
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'flowbite-form-demo';
-}
+export class AppComponent {}

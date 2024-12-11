@@ -85,12 +85,21 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/@taiga-ui/core/styles/taiga-ui.min.css",
+              "src/global_styles.less",
+              "@taiga-ui/core/styles/taiga-ui-theme.less",
+              "@taiga-ui/core/styles/taiga-ui-fonts.less",
+              "@taiga-ui/addon-mobile/styles/taiga-ui-mobile.less"
+
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "47a20c49-b354-48c7-a6bf-0625a8a18d8b"
   }
 }
